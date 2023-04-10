@@ -7,12 +7,12 @@
   $fname = $_POST["fnamePHP"];
   $lname = $_POST["lnamePHP"];
 
-  $conn = new mysqli('localhost', 'root', '', 'login1');
+  $conn = new mysqli('localhost', 'root', '', 'login');
   if (!empty($email)&& !empty($username)&&!empty($password)) {
     try
     {
-        
-        $sql="INSERT INTO `Users`(`LastName`, `username`, `FirstName`, `email`, `password`) VALUES ('$lname','$username','$fname','$email','$password')";       
+        $hash = md5($password);
+        $sql="INSERT INTO `Users`(`LastName`, `username`, `FirstName`, `email`, `password`) VALUES ('$lname','$username','$fname','$email','$hash')";       
         $result=mysqli_query($conn,$sql);
         echo "$result";
     } catch (mysqli_sql_exception) {
