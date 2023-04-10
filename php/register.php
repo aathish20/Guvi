@@ -11,8 +11,8 @@
   if (!empty($email)&&!empty($password)) {
     try
     {
-        $hash = md5($password);
-        $sql="INSERT INTO `Users`(`LastName`, `username`, `FirstName`, `email`, `password`) VALUES ('$lname','$username','$fname','$email','$hash')";       
+        
+        $sql="INSERT INTO `Users`(`LastName`, `username`, `FirstName`, `email`, `password`) VALUES ('$lname','$username','$fname','$email','$password')";       
         $result=mysqli_query($conn,$sql);
         echo "$result";
     } catch (mysqli_sql_exception) {
