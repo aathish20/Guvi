@@ -8,7 +8,7 @@
   $lname = $_POST["lnamePHP"];
 
   $conn = new mysqli('localhost', 'root', '', 'login');
-  if (!empty($email)&& !empty($username)&&!empty($password)) {
+  if (!empty($email)&&!empty($password)) {
     try
     {
         $hash = md5($password);
