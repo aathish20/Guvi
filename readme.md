@@ -35,3 +35,12 @@ all these data gets stored in database.
 During login, the login 
 credentials are verified through email and password query in SQL. 
 ```
+
+## SQL database
+
+![sql details](https://user-images.githubusercontent.com/130310215/230830640-f3c6349b-72c4-4a9a-a149-27a6619349b7.png)
+
+```text
+This shows the sql database with all the input details which come from the registration 
+page , during login the email and password details are checked.
+```
