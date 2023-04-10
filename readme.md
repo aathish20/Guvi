@@ -27,8 +27,7 @@ to update the profile details.
 ## Register Page
 
 ![register success](https://user-images.githubusercontent.com/130310215/230828297-665e1b6d-79b5-4802-bdd6-e5578fa17554.png)
-![register](https://user-images.githubusercontent.com/130310215/230828301-0445d543-eb7e-488f-82ad-7f472af0c199.png)
-
+![registerr](https://user-images.githubusercontent.com/130310215/230831317-2add2afe-1b97-4bc3-8f97-048e359ded18.png)
 ```text
 In this stage, the user is able to enter all his registration details and 
 all these data gets stored in database. 
