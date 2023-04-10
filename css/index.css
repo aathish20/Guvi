@@ -1,0 +1,55 @@
+body
+{ background:url('../assets/login_bg.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    min-height:1000%;
+    opacity: 0.6;
+
+
+}
+.input{
+    display: inline-block;
+}
+.form-control{
+    margin-left:5px;
+}
+.input-group-text{
+    margin-left:35px;
+    margin-top: 10px;
+    width: 350px;
+}
+.m{
+    margin-left:0px;
+}
+.one{
+    
+        background-color: transparent;
+      
+
+}
+.btn{
+    margin:-10px 20px -500px 285px ;
+}
+.la{
+    color: aqua;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-top: -10p;
+
+    
+}
+.register{
+    font-size: 18px;
+    
+}
+.new{
+    margin-top: -10px;
+}
+.two{
+    color: aqua;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.button{
+    color: white;
+}

@@ -1,0 +1,69 @@
+body
+{ background:url('../assets/login_bg.jpg');
+    background-size: 100%;
+    background-repeat:no-repeat;
+    min-height:1000%;
+    opacity: 0.6;
+
+
+}
+.input{
+    display: inline-block;
+}
+.form-control{
+    margin-left:5px;
+}
+.input-group-text{
+    margin-left:35px;
+    margin-top: 10px;
+    width: 350px;
+}
+.m{
+    margin-left:0px;
+}
+.userimg{
+    
+        background-color: transparent;
+        margin-left:-270px;
+        margin-top: -50px;
+      
+
+}
+.btn{
+    margin:-75px 200px -50px 600px ;
+    height:50px;
+    width: 150px;
+}
+.la{
+    color: aqua;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-top: -10p;
+
+    
+}
+.register{
+    font-size: 18px;
+    
+}
+.new{
+    margin-top: -10px;
+}
+.registration{
+    color: aqua;
+    font-size: 25px;
+    padding-top: 100px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+#re1{
+    width: 600px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    
+}
+.button:hover{
+    color: red;
+}
